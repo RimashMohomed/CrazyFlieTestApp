@@ -10,6 +10,9 @@ import java.io.IOException;
  */
 public class UsbLink implements CrazyUsbInterface {
 
+    public final static int CRADIO_VID = 0x1915; //Vendor ID
+    public final static int CRADIO_PID = 0x7777; //Product ID
+
     private DeviceList mUsbManager;
     private Device mUsbDevice;
     private Interface mIntf;
@@ -46,8 +49,10 @@ public class UsbLink implements CrazyUsbInterface {
     }
 
     @Override
-    public Device findDevices(int usbVid, int usbPid) {
+    public Device findDevices(int usbVid, int usbPid) throws IOException {
         // Read the USB device list
+
+        initDevice(CRADIO_VID, CRADIO_PID);
         DeviceList list = new DeviceList();
         int result = LibUsb.getDeviceList(mContext,list);
         if (result < 0) throw new LibUsbException("Unable to get device list", result);

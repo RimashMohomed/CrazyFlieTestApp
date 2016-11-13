@@ -12,6 +12,7 @@ import se.bitcraze.crazyflielib.param.ParamListener;
 import se.bitcraze.crazyflielib.toc.Toc;
 
 import java.io.File;
+import java.io.IOException;
 
 /**
  * Created by rimashm on 11/13/16.
@@ -261,7 +262,12 @@ public class Test {
 
         mUsbLink = new UsbLink();
 
-        Device usbDevice = mUsbLink.findDevices((short) Crazyradio.CRADIO_VID, (short) Crazyradio.CRADIO_PID);
+        Device usbDevice = null;
+        try {
+            usbDevice = mUsbLink.findDevices((short) Crazyradio.CRADIO_VID, (short) Crazyradio.CRADIO_PID);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
         if(usbDevice != null)
             return true;
         return false;

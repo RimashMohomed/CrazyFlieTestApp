@@ -64,10 +64,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Test.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Test.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lksim/drone/dancer/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="16" selection-start="940" selection-end="940" vertical-scroll-proportion="0.48955223" vertical-offset="465" max-vertical-offset="4267">
+            <state line="53" column="29" selection-start="1327" selection-end="1327" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4369">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,7 +88,14 @@
         <entry file="file://$PROJECT_DIR$/src/main/se/bitcraze/crazyfliecontrol2/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="605" column="63" selection-start="24141" selection-end="24141" vertical-scroll-proportion="0.0" vertical-offset="8865" max-vertical-offset="11373">
-              <folding />
+              <folding>
+                <element signature="n#!!doc" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#27791#27792#0" expanded="false" />
+                <element signature="e#27824#27825#0" expanded="false" />
+                <element signature="e#28584#28585#0" expanded="false" />
+                <element signature="e#28618#28619#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -96,7 +103,7 @@
       <file leaf-file-name="Crazyradio.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/se/bitcraze/crazyflielib/crazyradio/Crazyradio.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="28" selection-start="1606" selection-end="1606" vertical-scroll-proportion="-4.1153846" vertical-offset="573" max-vertical-offset="7718">
+            <state line="49" column="0" selection-start="1578" selection-end="1700" vertical-scroll-proportion="-4.1153846" vertical-offset="573" max-vertical-offset="7718">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -108,7 +115,11 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/se/bitcraze/crazyflielib/crtp/CrtpDriver.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="41" column="22" selection-start="1439" selection-end="1439" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2550">
-              <folding />
+              <folding>
+                <element signature="n#!!doc" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#1537#1557#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -170,10 +181,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UsbLink.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="UsbLink.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lksim/drone/dancer/UsbLink.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="46" selection-start="1357" selection-end="1357" vertical-scroll-proportion="-23.0" vertical-offset="269" max-vertical-offset="1717">
+            <state line="54" column="7" selection-start="1418" selection-end="1418" vertical-scroll-proportion="0.5048544" vertical-offset="762" max-vertical-offset="1802">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -196,14 +207,14 @@
         <option value="$PROJECT_DIR$/src/main/java/se/bitcraze/crazyflielib/BleLink.java" />
         <option value="$PROJECT_DIR$/src/main/java/se/bitcraze/crazyflielib/usb/BleJLink.java" />
         <option value="$PROJECT_DIR$/src/main/se/bitcraze/crazyfliecontrol2/MainActivity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lksim/drone/dancer/UsbLink.java" />
         <option value="$PROJECT_DIR$/src/main/java/se/bitcraze/crazyflielib/crazyradio/Crazyradio.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lksim/drone/dancer/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/se/bitcraze/crazyflielib/bootloader/Bootloader.java" />
         <option value="$PROJECT_DIR$/src/main/java/se/bitcraze/crazyflielib/toc/VariableType.java" />
         <option value="$PROJECT_DIR$/src/main/java/se/bitcraze/crazyflielib/toc/Toc.java" />
         <option value="$PROJECT_DIR$/src/main/java/se/bitcraze/crazyflielib/bootloader/Cloader.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lksim/drone/dancer/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lksim/drone/dancer/UsbLink.java" />
       </list>
     </option>
   </component>
@@ -640,15 +651,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -660,8 +671,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3293718" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3293718" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -709,7 +720,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="88" column="17" selection-start="2351" selection-end="2351" vertical-scroll-proportion="0.0" vertical-offset="862" max-vertical-offset="1513">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -731,14 +742,25 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/se/bitcraze/crazyflielib/crtp/CrtpDriver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="41" column="22" selection-start="1439" selection-end="1439" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2550">
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1537#1557#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/se/bitcraze/crazyfliecontrol2/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="605" column="63" selection-start="24141" selection-end="24141" vertical-scroll-proportion="0.0" vertical-offset="8865" max-vertical-offset="11373">
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#27791#27792#0" expanded="false" />
+            <element signature="e#27824#27825#0" expanded="false" />
+            <element signature="e#28584#28585#0" expanded="false" />
+            <element signature="e#28618#28619#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -755,15 +777,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="0" selection-start="1200" selection-end="1200" vertical-scroll-proportion="0.0" vertical-offset="37" max-vertical-offset="2210">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lksim/drone/dancer/UsbLink.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="46" selection-start="1357" selection-end="1357" vertical-scroll-proportion="-23.0" vertical-offset="269" max-vertical-offset="1717">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -800,6 +813,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="26" selection-start="918" selection-end="918" vertical-scroll-proportion="0.8045977" vertical-offset="145" max-vertical-offset="578">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/se/bitcraze/crazyflielib/crazyradio/RadioDriver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="52" column="27" selection-start="1740" selection-end="1740" vertical-scroll-proportion="0.0" vertical-offset="127" max-vertical-offset="5831">
@@ -809,23 +829,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/se/bitcraze/crazyflielib/crazyradio/Crazyradio.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="28" selection-start="1606" selection-end="1606" vertical-scroll-proportion="-4.1153846" vertical-offset="573" max-vertical-offset="7718">
+        <state line="49" column="0" selection-start="1578" selection-end="1700" vertical-scroll-proportion="-4.1153846" vertical-offset="573" max-vertical-offset="7718">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lksim/drone/dancer/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="26" selection-start="918" selection-end="918" vertical-scroll-proportion="0.8045977" vertical-offset="145" max-vertical-offset="578">
-          <folding />
+        <state line="53" column="29" selection-start="1327" selection-end="1327" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4369">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lksim/drone/dancer/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lksim/drone/dancer/UsbLink.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="16" selection-start="940" selection-end="940" vertical-scroll-proportion="0.48955223" vertical-offset="465" max-vertical-offset="4267">
+        <state line="54" column="7" selection-start="1418" selection-end="1418" vertical-scroll-proportion="0.5048544" vertical-offset="762" max-vertical-offset="1802">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

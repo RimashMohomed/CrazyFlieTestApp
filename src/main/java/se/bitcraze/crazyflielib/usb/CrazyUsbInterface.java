@@ -86,7 +86,7 @@ public interface CrazyUsbInterface {
      * @param usbPid
      * @return
      */
-    public Device findDevices(int usbVid, int usbPid);
+    public Device findDevices(int usbVid, int usbPid) throws IOException;
 
     /**
      * Returns the firmware version of the USB device
