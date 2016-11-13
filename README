@@ -1,3 +1,0 @@
-mvn clean install
-
-java -jar com.lksim.drone.dancer/target/com.lksim.drone.dancer-1.0-SNAPSHOT.jar
