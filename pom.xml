@@ -12,7 +12,7 @@
     <description>Drone Dancer</description>
     <modules>
         <module>se.bitcraze.crazyflie.lib</module>
-        <module>com.lksim.drone.dancer</module>
+        <module>com.lksim.drone.dancers</module>
     </modules>
 
 </project>
